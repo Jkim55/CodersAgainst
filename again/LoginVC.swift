@@ -11,8 +11,8 @@ import Alamofire
 
 class LoginVC: UIViewController {
 
-    var blackCards = [String]()
-    var whiteCards = [String]()
+    var blackCards = [Card]()
+    var whiteCards = [Card]()
     
     var searchURL = "https://jsonagainsthumanity.herokuapp.com/"
     typealias JSONStandard = [String: AnyObject]
@@ -21,7 +21,10 @@ class LoginVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black
-        loadCards()
+        (blackCards, whiteCards) = loadCards()
+        
+        print(loadCards())
+        
     }
     
     
@@ -35,7 +38,7 @@ class LoginVC: UIViewController {
     func parseData(JSONData : Data) {
         do {
             var readableJSON = try JSONSerialization.jsonObject(with: JSONData, options: .mutableContainers) as! JSONStandard
-            print(readableJSON["blackCards"])
+//            print(readableJSON["blackCards"])
         }
         catch {
             print(error)

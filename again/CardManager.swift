@@ -18,13 +18,14 @@ func loadCards() -> ([Card], [Card]){
     
     let searchURL = "https://jsonagainsthumanity.herokuapp.com/"
     
-    
     Alamofire.request(searchURL).responseJSON(completionHandler : {
         response in
-      (blackCards, whiteCards) = parseData(JSONData: response.data!)
+        
+        (blackCards, whiteCards) = parseData(JSONData: response.data!)
     })
- 
+    
     return (blackCards, whiteCards)
+    
 }
 
 
@@ -53,7 +54,9 @@ func parseData(JSONData : Data) -> ([Card], [Card]) {
             let card = Card(content: text!, type: "White")
             whiteCards.append(card)
             
+            
         }
+       
         
         return (blackCards, whiteCards)
         

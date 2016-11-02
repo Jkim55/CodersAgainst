@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PromiseKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>75B0447230095ED96550FCBF3E1945AB</key>
+		<key>406187CE087A843E306823242E6DB6A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76D194390B06D8E97C43B55729D4A75A</key>
+		<key>75B0447230095ED96550FCBF3E1945AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D354FB94AE7A288363C806147EA41701</key>
+		<key>9E57F5363E478A6C33E108EEE751F97B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9A25C8B95D712EFBB86838C5792B561</key>
 		<dict>
 			<key>primary</key>
 			<true/>

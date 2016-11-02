@@ -5,6 +5,7 @@ target 'again' do
   use_frameworks!
  pod 'Alamofire', '~> 4.0'
 pod 'SwiftyJSON'
+pod "PromiseKit", "~> 4.0"
   # Pods for again
 
   target 'againTests' do
