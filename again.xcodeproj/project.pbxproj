@@ -22,7 +22,7 @@
 		F788F3C71DC9078200E4C258 /* CardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788F3C61DC9078200E4C258 /* CardsTableViewController.swift */; };
 		F788F3C91DC90B7400E4C258 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788F3C81DC90B7400E4C258 /* CardTableViewCell.swift */; };
 		F7BAC1C61DC9240700D52A80 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BAC1C51DC9240700D52A80 /* Card.swift */; };
-		F7BAC1CA1DC924C500D52A80 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BAC1C91DC924C500D52A80 /* CardManager.swift */; };
+		F7BAC1CA1DC924C500D52A80 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BAC1C91DC924C500D52A80 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,7 @@
 		F788F3C61DC9078200E4C258 /* CardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsTableViewController.swift; sourceTree = "<group>"; };
 		F788F3C81DC90B7400E4C258 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		F7BAC1C51DC9240700D52A80 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		F7BAC1C91DC924C500D52A80 /* CardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		F7BAC1C91DC924C500D52A80 /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +194,7 @@
 		F7BAC1C81DC924B900D52A80 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F7BAC1C91DC924C500D52A80 /* CardManager.swift */,
+				F7BAC1C91DC924C500D52A80 /* Cards.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -481,7 +481,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B473F2C31DC7E55200205A2D /* InstructionVC.swift in Sources */,
-				F7BAC1CA1DC924C500D52A80 /* CardManager.swift in Sources */,
+				F7BAC1CA1DC924C500D52A80 /* Cards.swift in Sources */,
 				F788F3C71DC9078200E4C258 /* CardsTableViewController.swift in Sources */,
 				F7BAC1C61DC9240700D52A80 /* Card.swift in Sources */,
 				B473F2971DC7E3C500205A2D /* LoginVC.swift in Sources */,
